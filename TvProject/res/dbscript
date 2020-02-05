@@ -1,0 +1,6 @@
+CREATE TABLE tvs(
+	tvcode CHAR(4) PRIMARY KEY,
+	companytitle VARCHAR(20) NOT NULL,
+	price DECIMAL(7,2) NOT NULL,
+	rdate date NOT NULL
+);
